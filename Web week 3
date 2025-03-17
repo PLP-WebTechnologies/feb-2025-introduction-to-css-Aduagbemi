@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="title">Welcome to My Webpage</h1>
+    </header>
+
+    <section class="content">
+        <p id="intro">This is a simple demonstration of using an external CSS file to style an HTML document.</p>
+        <img src="image.jpg" alt="Sample Image" class="styled-image">
+    </section>
+
+</body>
+</html>
+
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the title */
+.title {
+    color: #333;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Styling for the paragraph using an ID */
+#intro {
+    color: #555;
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the image */
+.styled-image {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid #007bff;
+    margin-top: 15px;
+}
